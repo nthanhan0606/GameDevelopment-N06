@@ -234,9 +234,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 20532240}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86a55fc16d5f6164a84fb1b0489decd1, type: 3}
+  m_Script: {fileID: 11500000, guid: cc35b310b52bc6a409694d2c29b02869, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerShooting
+  bulletPrefabs: {fileID: 6978293704983762637, guid: eddb50a582145e64c9c0d96843ab953b,
+    type: 3}
+  shootingInterval: 0.5
+  bulletSpawnOffset: {x: 0, y: 2, z: 0}
 --- !u!1 &1622331900
 GameObject:
   m_ObjectHideFlags: 0

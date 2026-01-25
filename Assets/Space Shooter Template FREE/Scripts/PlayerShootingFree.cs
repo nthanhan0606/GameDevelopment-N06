@@ -11,7 +11,7 @@ public class Guns
     [HideInInspector] public ParticleSystem leftGunVFX, rightGunVFX, centralGunVFX; 
 }
 
-public class PlayerShooting : MonoBehaviour {
+public class PlayerShootingFree: MonoBehaviour {
 
     [Tooltip("shooting frequency. the higher the more frequent")]
     public float fireRate;
@@ -30,7 +30,7 @@ public class PlayerShooting : MonoBehaviour {
     public Guns guns;
     bool shootingIsActive = true; 
     [HideInInspector] public int maxweaponPower = 4; 
-    public static PlayerShooting instance;
+    public static PlayerShootingFree instance;
 
     private void Awake()
     {
